@@ -6,5 +6,6 @@ require "bundler/setup"
 Bundler.require
 
 $: << "./lib"
+$: << "./plugins"
 
 IRB.start
